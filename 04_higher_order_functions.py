@@ -118,9 +118,11 @@ print(list(filter(multiply_by_two, numbers))) # Ver si tiene sentido
 from functools import reduce
 
 numbers = [2, 5, 10, 21, 3, 30]
+words = ["que ", "tal ", "estamos ", "hoy"]
 
 def sum_two_values (x,y):
     return x + y
 
 print(reduce(sum_two_values, numbers))
+print(reduce(sum_two_values, words))
     
