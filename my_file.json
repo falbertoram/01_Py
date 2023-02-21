@@ -1,0 +1,11 @@
+{
+  "Name": "James",
+  "Surname": "Bond",
+  "Age": 50,
+  "Language": [
+    "Python",
+    "JavaScript",
+    "C"
+  ],
+  "Website": "www.clarin.com"
+}
